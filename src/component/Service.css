@@ -1,0 +1,123 @@
+.service{
+    width: 100%;
+    height: 800px;
+
+}
+.service .what{
+    padding: 0.1%;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    margin-left: 46.5%;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+.service .head{
+    font-weight: bold;
+    font-family: poppins;
+    font-size: 25px;
+    border-bottom: 2px solid #000;
+    width: 180px;
+    margin-top: 1%;
+    margin-left: 45%;
+   
+}
+
+.service .content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+    justify-content: space-between;
+}
+.service .content .developer{
+    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.paper:hover{
+    
+    
+    border-bottom: 4px solid blue;
+}
+.service .content .developer .icon{
+    font-size: 45px;
+    color: blue;
+}
+
+
+.head1{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    font-size: 20px;
+    width: 30%;
+    
+    color: #fff;
+  
+}
+.head2{
+    display:flex;
+    flex-direction:column;
+    width:20%;
+    justify-content:center;
+    align-items:center;
+}
+.head3{
+    background:blue;
+    border-Radius:6%;
+}
+.head4{
+    font-size: 40px;
+    color: #000;
+    
+}
+.head4::after{
+    content:'';
+    position: absolute;
+    z-index: 12;
+    border-bottom: 2px solid #000;
+    width: 7%;
+    margin-top: 3.9%;
+    margin-left: -11%;
+    
+   
+}
+.body{
+    display:flex;
+    justify-content:center;
+    height:180px;
+    /* width: 420px; */
+}
+.body1{
+   display:flex;
+   flex-direction:column;
+   flex-wrap:wrap;
+   justify-content:center;
+   align-items:center;
+}
+.icon{
+   font-size:40px;
+   color:blue;
+   opacity:1;
+}
+.web{
+   font-size:30px;
+   color:blue;
+}
+.explain{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:center;
+   width:10%;
+   font-size:17px;
+   font-family:poppins;
+}

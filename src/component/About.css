@@ -1,0 +1,99 @@
+
+
+ .btn{
+    background: -webkit-linear-gradient(-45deg,rgba(48, 195, 255,.7) 0,rgba(0, 77, 230,.7) 40%,rgba(0, 59, 177,.7) 100%);
+    border-radius: 22px;
+    padding: 2%;
+    width:30%;
+   margin-top: 7%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+ .resume{
+    color: #fff;
+    font-family: poppins;
+    text-decoration: none;
+
+}
+
+
+.head{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: poppins;
+    font-size: 20px;
+}
+.head::after{
+    content: '';
+    position: absolute;
+    z-index: 12;
+    border-bottom: 2px solid #000;
+    width: 5%;
+  margin-top: 2%;
+
+}
+
+.main{
+    display: flex;
+    margin-top: 1%;
+    
+ 
+}
+.image{
+    border: 10px solid blue;
+    width: 40%;
+    margin-top: 0%;
+    margin-left: 1%;
+    height: 500px;
+}
+.myimage{
+   
+    height: 101.9%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.who{
+    color: blue;
+    margin-top: 7%;
+    font-family: poppins;
+    font-weight: 50px;
+    font-size: 30px;
+}
+.me{
+    margin-top: 5%;
+    font-family: poppins;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 89%;
+}
+.address{
+    margin-top: 5%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.address-bar{
+    display: flex;
+    flex-direction: row;
+
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    
+}
+.address-bar2{
+    display: flex;
+    flex-direction: row;
+}
+.age{
+    display: flex;
+    flex-direction: row;
+    margin-left: -20%;
+}

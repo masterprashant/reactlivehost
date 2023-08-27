@@ -1,0 +1,109 @@
+.hero{
+    width: 100%;
+    height: 800px;
+    
+    
+}
+
+.mask {
+    width:100%;
+    height:800px;
+    position:relative;
+   
+}
+.into_img{
+    width: 100%;
+    height:800px;
+    background-size: cover;
+    background-position: cover;
+    object-fit: cover;
+    opacity: 0.6;
+    /* border-radius: 0 0 50% 50%/0 0 100% 100%;
+    transform:scale(1.9); */  
+}
+.mask::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    z-index: 12;
+    clip-path:polygon(100% 50%,0 100%,100% 100%) ;
+
+}
+
+.mask::after{
+    content:'';
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    
+    right:0;
+    background: -webkit-linear-gradient(-45deg,rgba(48, 195, 255,.7) 0,rgba(0, 77, 230,.7) 40%,rgba(0, 59, 177,.7) 100%); 
+   
+}
+.hero .hero-content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    
+}
+.hero .hero-content .hello-btn{
+    padding: 1%;
+    background-color: #fff;
+    color: blue;
+    font-weight: bold;
+    font-family: poppins;
+    width: 13%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.hero .hero-content .developer{
+    color: #fff;
+    font-family: poppins;
+    font-weight: 200px;
+    margin-top: 3%;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.hero .hero-content .description{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    font-family: poppins;
+    font-size: 15px;
+}
+.hero .hero-content .icon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    width: 20%;
+    justify-content: space-between;
+}
+.hero .hero-content .icon .insta, .a1{
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .hero-content .icon .a1:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: blue;
+}
+
+
+
+
+   
